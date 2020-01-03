@@ -1,0 +1,12 @@
+extends template/main
+
+block variables
+	- var title = 'Главная страница';
+	- var pageClass = 'index-page';
+
+block content
+	include modules/main
+	include modules/categoryes
+	include modules/why
+	include modules/gallery
+	include modules/get

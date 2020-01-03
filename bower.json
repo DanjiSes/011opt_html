@@ -1,0 +1,21 @@
+{
+  "name": "011opt.ru",
+  "description": "My start Template",
+  "main": "index.js",
+  "authors": [
+    "Salamatin Anatoliy"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "magnific-popup": "^1.1.0",
+    "slick-carousel": "^1.8.1"
+  }
+}

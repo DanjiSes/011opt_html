@@ -1,0 +1,25 @@
+// Colors
+$white: #ffffff;
+$black: #000000;
+$black2: #1d1d1d;
+$orange: #e0671d;
+
+// Sizes
+$base-font-size: 16px;
+
+$breakpoints: (
+  "phone"       : 400px,
+  "phone-wide"  : 480px,
+  "phablet"     : 560px,
+  "tablet-small": 640px,
+  "tablet"      : 768px,
+  "tablet-wide" : 1024px,
+  "desktop"     : 1248px,
+  "desktop-wide": 1440px
+);
+
+$content-size: 1024px;
+
+// Fonts
+$main-font: 'Century Gothic', sans-serif;
+$bold-font: 'Montserrat', sans-serif;

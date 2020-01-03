@@ -1,0 +1,64 @@
+.gallery {
+  background: $orange;
+
+  h1 {
+    color: $white;
+  }
+
+  &__list {
+    display: none;
+
+    &.slick-initialized {
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    .slick-dots {
+      display: flex;
+      margin: auto;
+      justify-content: center;
+      flex-wrap: wrap;
+      padding: 30px 0 0 0;
+
+      li {
+        margin: 5px;
+
+        button {
+          border: none;
+          padding: 10px 20px;
+          cursor: pointer;
+          background: $white;
+          color: $orange;
+          font-size: 30px;
+          font-weight: 700;
+        }
+
+        &.slick-active {
+
+          button {
+            background: $black2;
+          }
+        }
+      }
+    }
+  }
+
+  &__slide {
+    width: 33.33%;
+    padding: 0 15px;
+    outline: none;
+
+    a {
+      display: block;
+      margin: 0 0 30px 0;
+
+      &:last-child {
+        margin: 0;
+      }
+    }
+
+    img {
+      width: 100%;
+    }
+  }
+}

@@ -1,0 +1,40 @@
+.why {
+	background: url('../images/general/why-bg.png');
+	background-size: contain;
+	background-position: right bottom;
+	background-repeat: no-repeat;
+	z-index: -1;
+
+	&__title {
+		position: relative;
+		padding: 0 0 0 70px;
+
+		&:after {
+			content: '';
+			display: block;
+			position: absolute;
+			z-index: -1;
+			left: 0;
+			top: 50%;
+			width: 150px;
+			height: 150px;
+			margin: -75px 0 0 0;
+			border-radius: 50%;
+			background: $orange;
+		}
+		
+		span {
+			font-size: 45px;
+		}
+	}
+
+	&__list {
+
+		li {
+			list-style-type: disc;
+			margin: 0 0 15px 0;
+
+			&:last-child { margin: 0; }
+		}
+	}
+}

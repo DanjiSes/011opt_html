@@ -1,0 +1,19 @@
+section.get#get
+	.container
+		.row.align-items-center
+			.col-12.col-md-7
+				h2.get__title.skew-bg Получтие каталог удобным для вас способом!
+				p.get__descr Напишите нам на Whats’ App или перейдите по ссылке на профиль в Instagram.
+				ul.get__links
+					li
+						a(href="#")
+							img(src="static/images/general/get_whatsapp.png", alt="")
+					li
+						a(href="#")
+							img(src="static/images/general/get_inst.png", alt="")
+			.col-12.col-md-5
+				form.get__form(action="mailer/smart02.php", method="POST")
+					h3.title Форма заявки
+					input.input(name="name", type="text", placeholder="Ф.И.О.", required)
+					input.input(name="phone", type="text", placeholder="Телефон", required)
+					button.btn Отправить

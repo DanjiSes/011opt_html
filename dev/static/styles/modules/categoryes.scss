@@ -1,0 +1,32 @@
+.categoryes {
+	padding: 0;
+
+	&__item {
+		text-align: center;
+		padding: 2rem 0;
+
+		.image {
+			overflow: hidden;
+			margin: 0 0 15px 0;
+
+			img {
+				width: 100%;
+			}
+		}
+
+		.title {
+			margin: 0 0 25px 0;
+			font-weight: 700;
+		}
+
+		.age {
+			display: inline-block;
+			color: $white;
+			padding: 5px;
+
+			&:after {
+				background: $orange;
+			}
+		}
+	}
+}

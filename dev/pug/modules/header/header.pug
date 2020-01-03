@@ -1,0 +1,30 @@
+#mobile-nav
+	a.close(href="#close-nav") &times;
+	ul
+		li
+			a(href="#about") Онас
+		li
+			a(href="#goods") Товары
+		li
+			a(href="#get") Заказать
+
+header.header
+	.container
+		.header__wrap
+			.header__logo
+				img(src="static/images/general/logo.png", alt="O11OPT.com Оптовый магазин одежды")
+			nav.header__nav
+				a.mobile-nav(href="#mobile-nav")
+					img(src="static/images/general/menu.png", alt="")
+				ul
+					li
+						a.js-scroll(href="#about") Онас
+					li
+						a.js-scroll(href="#goods") Товары
+					li
+						a.js-scroll(href="#get") Заказать
+			a.header__phone(href="tel:+996707811011") +996 707 811 011
+			ul.header__links
+				li
+					a(href="#get")
+						img(src="static/images/general/inst.png", alt="Instagram")
